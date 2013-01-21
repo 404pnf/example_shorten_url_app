@@ -29,6 +29,13 @@ I don't know how to test the code automatcially, yet.
 
 I am testing by opening a redis-cli and check the results
 
+
+# LOC
+
+check Line Of Codes by using
+
+    grep -v '#' script.rb | wc -l
+	
 # 其它
 
 没有其它。实际上这个程序非常简单，我觉得可以直接上生产系统的！ ：） 
