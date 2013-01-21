@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head>	
+<title>Shortlink App</title></head>
+<h1>shortlink app</h1>
+<form method="post">
+<input type="text" value="<%= h(params[:url]) %>" name="url" id="url" />
+<input type="submit" value="shorten" id="submit" />
+</form>
+<% if @shortcode %>
+Your shortened URL is:
+<a href="http://127.0.0.1:9393/<%= @shortcode %>">http://127.0.0.1:9393/<%= @shortcode %></a>
+<% end %>
