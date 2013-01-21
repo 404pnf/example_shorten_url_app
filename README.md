@@ -3,6 +3,7 @@ example_shorten_url_app
 
 技术演示使用。shorten url app: redis + sinatra
 
+Kill Two Birds with One Stone!
 
 # 准备工作
 
@@ -21,6 +22,12 @@ example_shorten_url_app
     shotgun short_link.app
 
 shortgun会在每次请求页面的时候重新载入rb源码。方便开发中迅速查看效果。
+
+# test
+
+I don't know how to test the code automatcially, yet.
+
+I am testing by opening a redis-cli and check the results
 
 # 其它
 
